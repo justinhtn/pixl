@@ -10,7 +10,7 @@ import numpy as numpy
 
 model_target_size = (299,299)
 
-class ImgVec(object):
+class Pixl(object):
     
     def __init__(self):
         
@@ -19,7 +19,7 @@ class ImgVec(object):
         self.intermediate_layer_model = keras.Model(inputs=model.input,
                                                outputs=model.get_layer(layer_name).output)
 
-    def get_vector(self, img_path):
+    def get_vec(self, img_path):
         """
         Return image vector using output of intermediate NN model layer.
 
