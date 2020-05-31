@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(name='pixl',
       version='0.1',
-      description='Takes an image and returns a dense vector',
+      description='A simple package that takes in an image and returns a vector.',
       url='https://github.com/justinhtn/pixl',
       author='Justin Houghton',
       author_email='justin.houghton@gmail.com',
