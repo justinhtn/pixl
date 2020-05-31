@@ -10,5 +10,5 @@ setup(name='pixl',
       packages=['pixl'],
       zip_safe=False,
       install_requires=[
-          'tensorflow=>2.2.0',
+          'tensorflow>=2.2.0',
       ])
