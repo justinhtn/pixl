@@ -10,4 +10,4 @@ Tensorflow>=2.0
 
 ### Example notebook
 
-An example colab notebook can be found [here](https://colab.research.google.com/drive/1BaryND4V8VcbTAQlGyrOBIal_PxV2SuU?usp=sharing) which shows how to use the pixl object and generate k-means clusters from the returned image vectors.
+A colab notebook can be found [here](https://github.com/justinhtn/pixl/blob/master/colab_example.ipynb) which provides an example of using the module's `get_vec` method to generate vectors which when used to fit a kmeans clustering algorithm, can do a pretty good job at predicting classes.
