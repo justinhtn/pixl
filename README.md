@@ -6,7 +6,7 @@ Tensorflow>=2.0
 
 ### Install
 
-pip install git+git://github.com/justinhtn/pixl.git
+`pip install pixl`
 
 ### Example notebook
 
