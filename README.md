@@ -8,6 +8,6 @@ Tensorflow>=2.0
 
 pip install git+git://github.com/justinhtn/pixl.git
 
-### Examples
+### Example notebook
 
-An example notebook can be found https://github.com/justinhtn/pixl/blob/master/example.ipynb which shows how to use the pixl object and generate k-means clusters from the returned image vectors.
+An example colab notebook can be found [here](https://colab.research.google.com/drive/1BaryND4V8VcbTAQlGyrOBIal_PxV2SuU?usp=sharing) which shows how to use the pixl object and generate k-means clusters from the returned image vectors.
