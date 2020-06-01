@@ -1,5 +1,4 @@
 from tensorflow import keras
-
 from tensorflow.keras.applications import xception
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.models import Model
