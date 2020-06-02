@@ -40,4 +40,3 @@ class Pixl(object):
         intermediate_layer_output = self.intermediate_layer_model.predict(x)
 
         return intermediate_layer_output[0]
-        
