@@ -5,8 +5,8 @@ from tensorflow.keras.backend import expand_dims
 
 model_target_size = (299, 299)
 
+
 class Pixl(object):
-    
 
     def __init__(self):
 
@@ -40,3 +40,4 @@ class Pixl(object):
         intermediate_layer_output = self.intermediate_layer_model.predict(x)
 
         return intermediate_layer_output[0]
+        
