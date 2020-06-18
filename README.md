@@ -12,6 +12,7 @@ Tensorflow>=2.0
 
 A colab notebook can be found [here](https://github.com/justinhtn/pixl/blob/master/colab_example.ipynb) which provides an example of using the `util` module's `get_vec` method to generate image embeddings which when used to fit a kmeans clustering algorithm, can do a pretty good job at predicting classes.
 
+
 ### Usage
 
 ```python
@@ -24,3 +25,11 @@ img_path = './Images/dog_1.jpg'
 # get image embedding
 vec = p_object.get_vec(img_path)
 ```
+### Current limitations 
+
+Currently only takes in jpg or png files as input. 
+
+### Future
+
+- Allow inputs with other file types (numpy array, tensor)
+- Include quick plotting utilities to visualize embeddings using a variety of similarity metrics (cosine similarity, euclidean distance)
