@@ -4,7 +4,7 @@ A simple python package that takes in an image and returns an embedding. It uses
 ### Dependencies
 Tensorflow>=2.0
 
-### Install
+### Install test
 
 `pip install pixl`
 
