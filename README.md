@@ -22,5 +22,5 @@ p_obj = Pixl()
 # set path for img files
 img_path = './Images/dog_1.jpg'
 # get image embedding
-vec = p_object.get_vec(img_path)
+vec = p_obj.get_vec(img_path)
 ```
