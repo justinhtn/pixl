@@ -17,10 +17,37 @@ A colab notebook can be found [here](https://github.com/justinhtn/pixl/blob/mast
 ```python
 from pixl.utils import Pixl
 
+# setting directory of sample images and grabbing file_names
+img_dir = './Images'
+
+filenames = []
+for file in os.listdir(img_dir):
+    filenames.append(os.fsdecode(file))
+    
 # instantiate a pixl object
 p_obj = Pixl()
-# set path for img files
-img_path = './Images/dog_1.jpg'
-# get image embedding
-vec = p_obj.get_vec(img_path)
+
+#### Use the pixl object's get_vec method to get your vector ####
+def get_vec(img_dir, filenames):
+  """
+  Returns a list of vectors and a list of labels.
+
+  Args:
+  filenames (str): string specifying the name of each file.
+  
+  Returns:
+  vectors (lst): list of vectors representing image files.
+  labels (lst): list of labels taken from file names.
+  """
+  vectors = []
+  labels = []
+
+  for file in filenames:
+      vec = p_object.get_vec(img_dir + '/' + file)
+      vectors.append(vec)
+      label = file.split('.')[0]
+      labels.append(label)
+
+  return labels, vectors
+    
 ```
