@@ -10,7 +10,7 @@ Tensorflow>=2.0
 
 ### View in deepnote
 
-<a href="https://deepnote.com/@justin-houghton-190b/pixl-XmsZNhTxRZeBcjwLTpiBtQ?utm_campaign=pixl&utm_medium=publishing&utm_source=copy_link"> </a>
+<a href="https://deepnote.com/@justin-houghton-190b/pixl-XmsZNhTxRZeBcjwLTpiBtQ?utm_campaign=pixl&utm_medium=publishing&utm_source=copy_link"> <img src="https://beta.deepnote.com/buttons/launch-in-deepnote.svg"> </a>
 
 This notebook provides an example of using the module's `get_vec` method to generate feature vectors to fit a kmeans clustering algorithm. Becuase it's using a pretrained keras model, it can do a pretty good job at predicting simple classes.
 
